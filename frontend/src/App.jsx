@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, PieChart, Pie, Cell } from 'recharts';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://h2otracker.onrender.com/api';
 
 function App() {
   const [todayTotal, setTodayTotal] = useState(0);
